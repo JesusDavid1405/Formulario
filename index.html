@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla del 5</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 row">
+            <div class="col-5 rounded mt-5">
+                <div class="card">
+                    <div class="card-header bg-danger">
+                        <h4>Tablas de Multiplicar</h4>
+                    </div>
+                    <div class="card-body bg-danger-subtle">
+                        <form class="row g-3 needs-validation"  onsubmit=" return tablaMultiplicar()" novalidate>
+                            <div class="col-md-6">
+                                <label for="validationCustom04" class="form-label">tabla</label>
+                                <input type="number" name="tabla" id="tabla" class="form-control">
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom04" class="form-label">Factor</label>
+                                <select class="form-select" id="factor" required>
+                                    <option selected>escoja</option>
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                    <option value=6>6</option>
+                                    <option value=7>7</option>
+                                    <option value=8>8</option>
+                                    <option value=9>9</option>
+                                    <option value=10>10</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <button class="btn btn-danger" type="submit">imprimir</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 row mt-2" id="imprimir">
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/tabla5.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
