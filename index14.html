@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personas</title>
+    <link rel="stylesheet" href="css1/estilos.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script src="js14/script.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js14/calculaedad2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-10 row forma">
+            <div class="col-6 formulario">
+                <form class="row g-3 needs-validation" onsubmit=" return Edades();" novalidate>
+                    <div class="col-md-4">
+                      <label for="fecha1" class="form-label">Ingrese la edad de la persona 1</label>
+                      <input type="date" class="form-control" id="fecha1"  required>
+                      <div class="valid-feedback">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="fecha2" class="form-label">Ingrese la edad de la persona 2</label>
+                      <input type="date" class="form-control" id="fecha2" required>
+                      <div class="valid-feedback">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="fecha3" class="form-label">Ingrese la edad de la persona 3</label>
+                        <input type="date" class="form-control" id="fecha3"  required>
+                        <div class="valid-feedback">
+                        </div>
+                      </div>
+                  
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <div class="invalid-feedback">
+                          Complete los espacios en blanco
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Subir <i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+            </div>
+
+            <div class="col-4 respuesta">
+              <div id="resultado"></div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
