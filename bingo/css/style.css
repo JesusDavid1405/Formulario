@@ -1,0 +1,205 @@
+body{
+    background: rgb(120, 196, 209);
+    background: radial-gradient(circle, rgb(120, 209, 168) 70%, rgb(16, 180, 139) 100%);
+}
+
+.arriba{
+    margin-bottom: 35%;
+}
+
+
+/*estructuras*/
+.escoger{
+    width: 80%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.699);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.login{
+    width: 50%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.699);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.registro{
+    width: 50%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.699);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.salaEspera{
+    width: 80%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.699);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.jugadores{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.829);
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 24px;
+}
+
+
+
+/*boton*/
+
+
+.boton{
+    width: 100%;
+    background-color: #dc143c;
+    margin: 2px 2px 10px 0px;
+}
+.botonSalaEspera{
+    margin: auto;
+    justify-content: end;
+}
+
+
+/*img*/
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+    margin-bottom: -10%;
+}
+
+.logoLogin{
+    width: 70%;
+    height: 70%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.avatar{
+    width: 30%;
+    height: 20%;
+    border-radius: 100%;
+}
+.avatares{
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.participantes{
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+/*letras*/
+.letraLink{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.titulo-form{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #201d1d;
+}
+.letraDescripcion{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.letraBingo{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    color: #201d1d;
+    margin-left: 20%;
+}
+.letraCuadrado{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*scroll*/
+
+.scroll{
+    overflow-y: auto;
+    height: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e42a4f8e;
+    border-radius: 25px;
+}
+.scrolli{
+    overflow-x: auto;
+    width: 3000px;
+    display: flex;
+    height: 500px;
+}
+
+
+/*jugadores en espera*/
+.jugadorEspera{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+/*bingo estructura*/
+
+.bingo{
+    width: 100%;
+    height: 380px;
+    background: rgb(255,255,216);
+    background: radial-gradient(circle, rgba(255,255,216,1) 31%, rgba(249,255,168,1) 100%);
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.bingoH{
+    height: 80px;
+    width: 110%;
+    background: rgb(96, 206, 155);
+    background: radial-gradient(circle, rgb(51, 158, 108) 70%, rgb(6, 151, 115) 100%);
+    margin-left: -5%;
+}
+.bingoB{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.bingob{
+    background: rgb(96, 206, 155);
+    background: radial-gradient(circle, rgb(51, 158, 108) 70%, rgb(6, 151, 115) 100%);
+}
+.cuadradoBingo{
+    width: 100%;
+    height: 17%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.cuadradoBingo:hover{
+    background: rgb(187, 72, 100);
+    background: radial-gradient(circle, rgb(187, 72, 100) 70%, rgb(192, 52, 87) 100%);
+}

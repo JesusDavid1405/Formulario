@@ -1,0 +1,22 @@
+.input-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px; /* Ajusta la posición horizontal del ícono */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa; /* Color del ícono */
+}
+
+.input-icon input {
+  padding-left: 30px; /* Añade espacio para el ícono */
+  height: 40px; /* Altura del campo de entrada */
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+  
